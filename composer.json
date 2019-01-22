@@ -1,10 +1,6 @@
 {
     "name": "opticinferno/infernonavigation",
-<<<<<<< HEAD
-    "description": "Simple add-on to enable navigation",
-=======
     "description": "Navigation Module",
->>>>>>> 3aaee1efc5fe4798c3a3a71ffdea9232ecef3860
     "type": "silverstripe-vendormodule",
     "license": "BSD-3-Clause",
     "keywords": ["inferno"
@@ -15,7 +11,6 @@
             "email": "gordon@opticblaze.co.za"
         }
     ],
-<<<<<<< HEAD
     "require": {
         "silverstripe/framework": "^4.1",
         "tractorcow/silverstripe-colorpicker": "dev-master",
@@ -25,7 +20,6 @@
     "autoload": {
         "psr-4": {
             "OpticInferno\\InfernoConfig\\": "src/"
-=======
     	"require": {
 		"silverstripe/framework": "^4.1",
 		"tractorcow/silverstripe-colorpicker": "dev-master",
@@ -35,7 +29,6 @@
     "autoload": {
         "psr-4": {
             "OpticInferno\\InfernNavigation\\": "src/"
->>>>>>> 3aaee1efc5fe4798c3a3a71ffdea9232ecef3860
         }
     }
 }
