@@ -1,0 +1,2 @@
+<?php
+// Extend the class

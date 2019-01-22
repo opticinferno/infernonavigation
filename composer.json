@@ -1,0 +1,10 @@
+{
+    "name": "inferno/infernonavigation",
+    "description": "Navigation Module",
+    "type": "silverstripe-vendormodule",
+    "extra": {
+        "expose": [
+            "client"
+        ]
+    }
+}

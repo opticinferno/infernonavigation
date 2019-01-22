@@ -1,0 +1,9 @@
+---
+name: NavigationConfig
+---
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - Inferno\InfernoNavigation\Navigation\Navigation
+Page:
+  extensions:
+    - Inferno\InfernoNavigation\Navigation\NavigationPageExtension
