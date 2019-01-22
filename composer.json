@@ -2,9 +2,25 @@
     "name": "inferno/infernonavigation",
     "description": "Navigation Module",
     "type": "silverstripe-vendormodule",
-    "extra": {
-        "expose": [
-            "client"
-        ]
+    "license": "BSD-3-Clause",
+    "keywords": ["inferno"
+    ],
+    "authors": [
+        {
+            "name": "Gordon Skinner",
+            "email": "gordon@opticblaze.co.za"
+        }
+    ],
+    	"require": {
+		"silverstripe/framework": "^4.1",
+		"tractorcow/silverstripe-colorpicker": "dev-master",
+        "unclecheese/display-logic": "dev-master"
+	},
+"minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "OpticInferno\\InfernNavigation\\": "src/"
+        }
     }
 }
+
